@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  chatgpt-lite:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - OPENAI_API_BASE_URL= https://api.openai.com
+      - OPENAI_API_KEY= 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
+      - AZURE_OPENAI_API_BASE_URL=
+      - AZURE_OPENAI_API_KEY=
+      - AZURE_OPENAI_DEPLOYMENT=
