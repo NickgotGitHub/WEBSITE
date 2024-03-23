@@ -3,72 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <title>DesignerGPT</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #1d1d1d;
-        }
-        .main-container {
-            background-color: #333;
-            color: #fff;
-            border-radius: 8px;
-            padding: 2rem;
-            width: 80%;
-            max-width: 600px;
-        }
-        .logo {
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .logo img {
-            max-width: 100px;
-        }
-        .logo-title {
-            margin-top: 1rem;
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
-        .sub-title {
-            font-size: 0.9rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-        .button-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-            gap: 1rem;
-        }
-        button {
-            padding: 1rem;
-            border: none;
-            background-color: #666;
-            color: white;
-            border-radius: 5px;
-            cursor: pointer;
-        }
-        button:hover {
-            background-color: #777;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 2rem;
-        }
-        .footer p {
-            color: #aaa;
-            font-size: 0.75rem;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="main-container">
         <div class="logo">
             <img src="https://via.placeholder.com/100" alt="DesignerGPT Logo">
-            <div class="logo-title">CXCGPT</div>
+            <div class="logo-title">DesignerGPT</div>
         </div>
         <div class="sub-title">By Nicholas Salmon</div>
         <div class="sub-title">
@@ -79,10 +21,16 @@
             <button>Default message option</button>
             <button>Default message option</button>
             <button>Default message option</button>
+            <button>Default message option</button>
+            <button>Default message option</button>
         </div>
         <div class="footer">
             <p>Please consider donating!</p>
         </div>
+    </div>
+    <div class="chat-area">
+        <input type="text" placeholder="Type your message here...">
+        <button>Send</button>
     </div>
 </body>
 </html>
